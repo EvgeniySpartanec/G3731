@@ -1,7 +1,13 @@
 ﻿// 
 //Вариант 1
 //считываем данные с консоли//
-// string? imputline = Console.ReadLine();
+Console.WriteLine("Введите число:");
+
+string? imputline = Console.ReadLine();
+if (imputline == null) {
+    Console.WriteLine("День недели не передан");
+    Environment.Exit(1);
+}
 // if (imputline!= null)
 // {
 //     //создаем массимв с днями недели//
