@@ -7,7 +7,7 @@ int ReadData(string msg)
     Console.WriteLine(msg);
     return int.Parse(Console.ReadLine() ?? "0");
 }
-//Выводим результат пользователю
+    //Выводим результат пользователю
 void PrintData(string msg1, int msg2)
 {
     Console.WriteLine(msg1);
